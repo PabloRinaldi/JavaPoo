@@ -15,6 +15,10 @@ import com.gm.mundopc.Teclado;
  */
 public class MundoPc {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         /**
@@ -43,9 +47,9 @@ public class MundoPc {
          */
         Computadora comp1 = new Computadora("pc 1", m1, t1, r1);
 
-        Computadora comp2 = new Computadora("pc 2", m2, t1, r1);
+        Computadora comp2 = new Computadora("pc 2", m2, t2, r2);
 
-        Computadora comp3 = new Computadora("pc 3", m3, t3, r1);
+        Computadora comp3 = new Computadora("pc 3", m3, t3, r3);
 
         /**
          * Se instancian objetos de la clase Orden
@@ -70,7 +74,7 @@ public class MundoPc {
          */
         ord1.mostrarOrden();
 
-        System.out.println("----------------------------------------------------");
+        System.out.println("------------------------------------------------------------------------------------------------------------------------------------");
 
         /**
          * Se muestra la Orden con el metodo mostrarOrden()

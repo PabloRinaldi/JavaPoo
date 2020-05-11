@@ -44,6 +44,7 @@ public class Orden {
         Iterator<Computadora> it= computadoras.iterator();    
         while(it.hasNext()){
             System.out.println(it.next());
+            System.out.println("");
         
     }
 
